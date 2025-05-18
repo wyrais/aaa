@@ -1,0 +1,22 @@
+# Початковий час
+force Ain 6'b000001 0
+force Bin 6'b000010 0
+force Ci 0 0
+
+# Тестові дані (як у тестбенчі)
+force Ain 6'd5 50
+force Ain 6'd15 100
+force Ain 6'd20 150
+force Ain 6'd31 200
+force Ain 6'd45 250
+force Ain 6'd55 300
+force Ain 6'd63 350
+
+force Bin 6'd10 100
+force Bin 6'd32 200
+force Bin 6'd1 300
+
+force Ci 1 200
+
+# Симуляція на 400 нс
+run 400
